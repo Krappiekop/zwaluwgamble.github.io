@@ -1,0 +1,24 @@
+<!-- bet.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place Bets</title>
+</head>
+<body>
+    <h1>Place Your Bets</h1>
+    <form id="bet-form">
+        <input type="text" id="bet-amount" placeholder="Bet Amount" required>
+        <input type="text" id="bet-racer" placeholder="Racer" required>
+        <button type="submit">Place Bet</button>
+    </form>
+
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-database.js"></script>
+    <script src="firebase-config.js"></script>
+    <script src="auth.js"></script>
+    <script src="bets.js"></script>
+</body>
+</html>
